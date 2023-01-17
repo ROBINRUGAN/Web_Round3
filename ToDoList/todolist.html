@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ToDoList</title>
+	<link rel="stylesheet" href="todolist.css">
+	<script type="text/javascript" src="rem.js"></script>
+</head>
+<body>
+	<div class="main">
+	 	<div class="header">
+	 		<div class="logo">ToDoList</div>
+	 	</div>
+        <!-- 添加两个class样式，这样子既可以统一操作也可以方便js分开设置事件，下面也是一样-->
+	 	<div class="doing todo">
+	 		<h3>
+                <span class="title">未完成</span>
+                <span class="num">0</span>
+                <span class="titlex">个 ToDo</span>
+            </h3>
+	 		<div class="list">
+	 		</div>
+	 	</div>
+	 	<div class="done todo">
+	 		<h3>
+                <span class="title">已完成</span>
+                <span class="num">0</span>
+                <span class="titlex">个 ToDo</span>
+            </h3>
+	 		<div class="list">
+	 		</div>
+	 	</div>
+        <div class="cover">
+	 		<input type="text" placeholder="键入新的ToDo，按回车添加..." id="input">
+	 	</div>
+	</div>
+</body>
+</html>
+
+<script type="text/javascript" src="todolist.js"></script>
